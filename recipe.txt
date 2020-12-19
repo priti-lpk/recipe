@@ -1,0 +1,49 @@
+API URL:
+
+	http://recipe.lpktechnosoft.com/api.php
+
+	id=260898
+	name=api name
+	username=username
+
+API Methods:
+
+	1. main_category()
+	2. view_recipe()
+	3. add_rating()
+	4. add_user()
+        5. last_recipe()
+	
+What parameters to be Passed?
+
+-> Use POST method to pass the parameters
+
+1) main_category():
+
+	name: main_category
+
+2) view_recipe():
+
+	name:view_recipe
+        category_id:1
+
+3) add_rating ():
+
+	name: add_rating
+	recipe_id:1
+	user_email:p@gmail.com
+	rating:5
+	date:2019-06-03
+
+4) add_user ():
+
+	name:add_user
+	user_email:p@gmail.com
+	user_login_type:y
+	user_fullname:Preeti A. Hirani
+	user_image:1.jpg
+	user_reg_date:2019-06-03
+
+5) last_recipe():
+
+        name:last_recipe
